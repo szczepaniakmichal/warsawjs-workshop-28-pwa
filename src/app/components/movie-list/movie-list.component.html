@@ -1,0 +1,6 @@
+<pre> {{ movies | json }} </pre>
+
+<app-movie-list-item 
+*ngFor="let movie in movies">
+   [movie]="movie"
+</app-movie-list-item>
