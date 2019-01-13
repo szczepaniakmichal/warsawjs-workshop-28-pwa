@@ -4,6 +4,9 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class MovieService {
+  getMovies(): any {
+    throw new Error("Method not implemented.");
+  }
   getMoviesById(id: any): MovieService {
     throw new Error("Method not implemented.");
   }
